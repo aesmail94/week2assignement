@@ -1,0 +1,61 @@
+body{
+    background-color:lightgreen;
+  }
+
+  h1,h2{  
+     color:navy;
+     text-shadow: lightblue 1px 1px;
+    /*h1 and h2 are styled the same*/ 
+  }
+
+  p{
+   color:navy;
+
+  }
+
+
+/* hyperlinksstyled on all three pages*/
+div{
+     background-color: lightblue;
+      border-style: solid;
+      border-color: navy;
+      border-radius: 5px;
+  }
+
+  /* class selector for any text that I would want 
+  with a lightblue background*/
+  .shadow-text{   
+     text-shadow: lightblue 1px 1px; 
+  }
+
+  #large-paragraph{
+/* id selector style the one large paragraph on the index page*/
+    font-size: 30px;
+    font-family: sans-serif;
+    text-shadow: lightblue 1px 1px;
+ }
+/* element selector will float images to the right
+and have a solid navy blue border*/
+ img{
+    border-style: solid;
+    border-color: navy;
+    border-radius: 2px;
+    float: right;
+ }
+
+ table, th, td{
+   border: 1px solid;
+   border-collapse: collapse;
+   width: 75%
+ }
+
+ td {
+   text-align: center; 
+ }
+
+ tr:nth-child(odd){
+   background-color: lightblue; 
+
+ }
+
+  
